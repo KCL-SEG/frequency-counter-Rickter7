@@ -1,4 +1,3 @@
-
 """Frequencies function."""
 """ENTER YOUR SOLUTION HERE!"""
 
@@ -10,5 +9,4 @@ def frequencies(items):
                    frequencies[keyName] = items[i]
     return frequencies
 
-pytest.main("test_sample.py --capture=sys")
 
