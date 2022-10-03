@@ -9,8 +9,10 @@ def frequencies(items):
         freqeuncy = 0
         for i in range(0, len(items)):
             if str(items[i]) == keyName:
-                frequency = frequency + 1
-        frequencies[keyName] = frequency
+                number += 1
+        frequency = number
+        number = 0
+    frequencies[keyName] = frequency
     return frequencies
 
 
