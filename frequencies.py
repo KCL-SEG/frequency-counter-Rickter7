@@ -5,7 +5,7 @@ def frequencies(items):
     frequencies = {}
     # Your code goes here
     frequency = 0
-    length = len(frequencies)
+    length = len(items)
     for i in range(0, length):
         keyName = str(items[i])
         for i in range(0, len(items)):
