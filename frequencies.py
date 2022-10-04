@@ -1,10 +1,17 @@
+
 """Frequencies function."""
 """ENTER YOUR SOLUTION HERE!"""
+
 
 def frequencies(items):
     frequencies = {}
     # Your code goes here
     for i in range(len(items)):
         key = str(items[i])
-        frequencies[key] = items[i]
+        count = 0
+        for i in range(len(items)):
+            if str(items[i]) == key:
+                count += 1
+        if key not in frequencies:
+            frequencies[key] = count
     return frequencies
